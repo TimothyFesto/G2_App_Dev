@@ -59,7 +59,8 @@
         { "target": "zip", "arch": ["universal"] }
       ],
       "icon": "build/icon.png",
-      "category": "public.app-category.business"
+      "category": "public.app-category.business",
+      "x64ArchFiles": "**/node_modules/better-sqlite3/prebuilds/**/*.node"
     },
     "publish": {
       "provider": "github",
